@@ -174,9 +174,9 @@ export default function AdicionaItem() {
                 setSuiteAtual(suite);
                 onVoltarClick();
             }).catch(() => {
+                onVoltarClick();
                 setMesaAtual(mesa);
                 setSuiteAtual(suite);
-                onVoltarClick();
             });
         }
     
